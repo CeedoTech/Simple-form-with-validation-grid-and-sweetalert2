@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fine Fabric Jewelry</title>
+  </head>
+  <body>
+    <h1>Fine Fabric Jewelry</h1>
+    <h3 class="card-title">Couple Necklace Payment Confirmation form</h3>
+    <section class="card-container">
+      <form class="1 form-card">
+        <img
+          src="img/kim.jpg"
+          class="rounded float-start"
+          height="240px"
+          width="220px"
+          alt="Kim Sandra"
+        />
+        <div class="info">
+          <div class="col">
+            <label for="name" class="form-label"
+              >FullName:
+              <input type="text" value="Kim Sandra" disabled />
+            </label>
+          </div>
+
+          <div>
+            <label for="state"
+              >State: <input type="text" value="Washington D.C" disabled />
+            </label>
+          </div>
+          <div style="font-size: 12.5px; font-weight: 500">
+            <label for="type"
+              ><span style="font-size: 15px; font-weight: 500"
+                >Jewelry Type:</span
+              >
+              <input
+                type="text"
+                value="Necklaces for Couple 13karat gold"
+                disabled
+              />
+            </label>
+          </div>
+          <label for="age"
+            >Age: <input type="number" value="27" disabled />
+          </label>
+          <br />
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            disabled
+          >
+            <option selected>Female</option>
+          </select>
+          <div>
+            <label for="amount"
+              >Amount: $<input
+                type="number"
+                value="1500"
+                style="width: 60px; padding: 1px"
+                disabled
+              />
+              <span style="font-size: 12px; margin: 0"
+                ><b>paid</b>
+                <img
+                  src="img/tick.png"
+                  alt="verified"
+                  width="40px"
+                  height="48px"
+              /></span>
+            </label>
+          </div>
+
+          <label for="image"
+            ><img
+              src="img/necklace-s.jpg"
+              alt="Couple Jewelry"
+              height="140px"
+              width="140px"
+          /></label>
+          <br />
+          <div class="col-12">
+            <button type="submit" disabled class="btn btn-primary">
+              Submitted
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Main form -->
+      <form class="2 form-card">
+        <img
+          src="img/customer.jpg"
+          class="rounded float-end"
+          alt="User"
+          height="250px"
+          width="220px"
+        />
+        <div>
+          <label for="name"
+            >FullName:
+            <input
+              type="text"
+              id="name"
+              placeholder="input your full name..."
+              autofocus
+            />
+          </label>
+        </div>
+        <label for="state"
+          >State:
+          <input type="text" id="state" placeholder="input your state..." />
+        </label>
+        <br />
+        <div style="font-size: 12.5px; font-weight: 500">
+          <label for="type"
+            ><span style="font-size: 15px; font-weight: 500"
+              >Jewelry Type:</span
+            >
+            <input
+              type="text"
+              value="Necklaces for Couple 13karat gold"
+              disabled
+            />
+          </label>
+        </div>
+        <label for="age"
+          >Age: <input type="number" id="age" placeholder="input your age..." />
+        </label>
+        <br />
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Gender</option>
+          <option value="1">Male</option>
+          <option value="2">Female</option>
+        </select>
+        <div>
+          <label for="amount"
+            >Amount: $<input
+              type="number"
+              value="1500"
+              style="width: 60px; padding: 1px"
+              disabled
+            />
+          </label>
+        </div>
+        <label for="image"
+          ><img
+            src="img/necklace-n.jpg"
+            alt="Couple Jewelry"
+            height="140px"
+            width="140px"
+        /></label>
+        <br />
+        <div class="col-12">
+          <button type="submit" id="submit" class="btn btn-primary">
+            Submit
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <div class="alert alert-danger" role="alert">
+      Account Details should be retrieved from the managers
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Payment should be made before the next 24hours!
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+      integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
